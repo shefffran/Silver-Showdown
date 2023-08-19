@@ -7,6 +7,7 @@ public class GrugAndGropo : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
 {
     [SerializeField] private Canvas canvas;
 
+    [SerializeField] GameObject obj;
     public bool CanMoveCoin = true;
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
@@ -20,23 +21,21 @@ public class GrugAndGropo : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        Debug.Log("OnBeginDrag");
-        canvasGroup.alpha = .6f;
+        canvasGroup.alpha = .8f;
         canvasGroup.blocksRaycasts = false;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        Debug.Log("OnDrag");
         if(CanMoveCoin == true)
         {
             rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
         }
+        
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        Debug.Log("OnEndDrag");
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
     }
@@ -49,5 +48,21 @@ public class GrugAndGropo : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
     public void OnDrop(PointerEventData eventData)
     {
         throw new System.NotImplementedException();
+    }
+
+    private void Update()
+    {
+        if(CanMoveCoin == false)
+        {
+            StartCoroutine("Wait");
+        }
+    }
+
+
+    public IEnumerator Wait()
+    {
+        Debug.Log("wait");
+        yield return new WaitForSeconds(3f);
+        obj.SetActive(false);
     }
 }
