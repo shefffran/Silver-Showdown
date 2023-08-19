@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a051917c4954e064080eea075f10e92b
+guid: 6a1bee0dfe27cfa4daf10d4719fe3d68
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -149,13 +149,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pistola_0
+      name: pixil-frame-0 (6)_0
       rect:
         serializedVersion: 2
-        x: 416
-        y: 688
-        width: 1168
-        height: 656
+        x: 624
+        y: 640
+        width: 304
+        height: 368
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,8 +163,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b880a6bb2d13e64ebff80ab5afe9088
-      internalID: -2048250488
+      spriteID: ff8a32a69ad81264695523ac50c9d6b7
+      internalID: -1690736207
       vertices: []
       indices: 
       edges: []
@@ -180,7 +180,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pistola_0: -2048250488
+      pixil-frame-0 (6)_0: -1690736207
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

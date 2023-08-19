@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a051917c4954e064080eea075f10e92b
+guid: 1d655513e323f694499a8defa91a280a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -149,13 +149,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pistola_0
+      name: pixil-layer-Layer 8_0
       rect:
         serializedVersion: 2
-        x: 416
-        y: 688
-        width: 1168
-        height: 656
+        x: 1709
+        y: 1421
+        width: 630
+        height: 262
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,8 +163,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b880a6bb2d13e64ebff80ab5afe9088
-      internalID: -2048250488
+      spriteID: 0ea61934298ff6d44bbd9357288195c0
+      internalID: -1308407708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Layer 8_1
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1418
+        width: 634
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b4bde20c02d0745a2f5c8566ed70b3
+      internalID: 987395718
       vertices: []
       indices: 
       edges: []
@@ -180,7 +201,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pistola_0: -2048250488
+      pixil-layer-Layer 8_0: -1308407708
+      pixil-layer-Layer 8_1: 987395718
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
