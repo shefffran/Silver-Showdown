@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 31488fca416023148a3ec113c33815dc
+guid: 4b2adbe148ae9534bbfb23e1d1b5c6f2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -149,13 +149,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: istockphoto-936151476-2048x2048_0
+      name: prrrrrrrostospitak_0
       rect:
         serializedVersion: 2
-        x: 215
-        y: 218
-        width: 1615
-        height: 1610
+        x: 71
+        y: 83
+        width: 13
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,8 +163,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c58a298d2e3ee944ba3045f4c8e84f1
-      internalID: -1241892003
+      spriteID: 91287329ddc2e7e469da8b9272814364
+      internalID: -1441385999
       vertices: []
       indices: 
       edges: []
@@ -180,7 +180,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      istockphoto-936151476-2048x2048_0: -1241892003
+      prrrrrrrostospitak_0: -1441385999
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

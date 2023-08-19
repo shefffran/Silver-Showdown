@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 31488fca416023148a3ec113c33815dc
+guid: 77d2b416cf85fcb44a3b3fb72cb56b97
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -149,13 +149,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: istockphoto-936151476-2048x2048_0
+      name: hand_0
       rect:
         serializedVersion: 2
-        x: 215
-        y: 218
-        width: 1615
-        height: 1610
+        x: 560
+        y: 528
+        width: 128
+        height: 432
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,8 +163,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c58a298d2e3ee944ba3045f4c8e84f1
-      internalID: -1241892003
+      spriteID: 95bb6bd31314dbb479123329e281059d
+      internalID: 350637113
       vertices: []
       indices: 
       edges: []
@@ -180,7 +180,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      istockphoto-936151476-2048x2048_0: -1241892003
+      hand_0: 350637113
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
