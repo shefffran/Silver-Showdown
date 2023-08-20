@@ -11,6 +11,7 @@ public class GrugAndGropo : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
     public bool CanMoveCoin = true;
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
+    public SystemMangaer systemMangaer;
 
     private void Awake()
     {
@@ -59,10 +60,11 @@ public class GrugAndGropo : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
     }
 
 
-    public IEnumerator Wait()
-    {
-        Debug.Log("wait");
-        yield return new WaitForSeconds(3f);
-        obj.SetActive(false);
-    }
+        public IEnumerator Wait()
+        {
+            Debug.Log("wait");
+            yield return new WaitForSeconds(3f);
+            obj.SetActive(false);
+            systemMangaer.ChosingHorT();
+        }
 }
